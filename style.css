@@ -22,7 +22,7 @@ body{
 }
 #under-line{
     height: 4px;
-    background-color: pink;
+    background-color: darkcyan;
     position: absolute;
     width: 70px;
     left: 0;
@@ -33,4 +33,34 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    align-items: center;
+}
+.task div{
+    font-size: 2vw;
+}
+#task-input{
+    display: inline-block;
+    vertical-align: -7px;
+    width: 28vw;
+    height: 40px;
+}
+.task-done{
+    text-decoration: line-through;
+}
+.fa-rotate-left{
+    color: pink;
+}
+#add-button{
+    color: darkcyan;   
+    display: inline-block;
+    vertical-align: middle;
+}
+.fa-check{
+    color: aquamarine;
+}
+
+button{
+    border: none;
+    font-size: 3vw;
+    background: none;
 }
